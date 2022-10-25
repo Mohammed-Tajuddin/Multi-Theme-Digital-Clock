@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Condensed:ital,wght@1,700&family=Source+Code+Pro:wght@500&display=swap');
+body
+{
+    background-color: rgb(11, 11,69);
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightseagreen;
+    font-size: 12vh;
+    height: 12vh;
+    padding: 21px 0px;
+    margin: 5vh 0px 5vh 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer
+{
+    display: flex;
+justify-content: center;
+align-items: center;
+/* background-color: black; */
+color: lightgray;
+font-size: 5vh;
+margin: 100px 0px 0px 0px;
+padding: 0;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 12vh;
+}
+
+#options
+{
+    display: none;
+    padding: 0px 50px 10px;
+    background-color: grey;
+    border-radius: 40px;
+    margin: 0px 0px 10px;
+}
+
+.mode{
+    font-size: 6vh;
+    border-radius: 12px;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+   
+}
+
+#m1
+{
+    background-color: white;
+}
+#m2
+{
+    background-color: navy;
+    color: white;
+    border: 5px solid red;
+}
+#m3
+{
+    background-color: black;
+    color: white;
+}
+
+
+#btn1
+{
+    font-size: 6vh;
+    border-radius: 12px;
+    background: hotpink;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+
+}
+
+
+#btn1:hover
+{
+    background-color: lightskyblue;
+}
+#btn2
+{
+    font-size: 6vh;
+    border-radius: 12px;
+    background: hotpink;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+
+}
+
+
+#btn2:hover
+{
+    background-color: lightskyblue;
+}
+
+#DATE
+{
+    color: white;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+    align-items: center;
+    font-size: 10vh;
+    padding: 20px 0px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#TIMER
+{
+    color: white;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    align-items: center;
+    font-size: 10vh;
+    padding: 10px 0px;
+    font-family: 'Kanit', sans-serif;
+}
