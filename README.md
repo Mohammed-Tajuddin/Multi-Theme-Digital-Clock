@@ -1,4 +1,4 @@
-# Developing-a-Multi-Theme-Digital-Clock
+# Multi-Theme-Digital-Clock
 In this project, I have designed a digital clock with the help of HTML, CSS, JavaScipt.
 For the development, I have utilized the date functions that are there in the JavaScript.
 I have added an option to view the clock in different themes, which was done by combining the concepts of CSS and JavaScript.
